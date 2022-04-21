@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>РЕСТОРАН</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href='../css/header.css'>
+        <link rel="stylesheet" href='../css/footer.css'>
+        <link rel="stylesheet" href='../css/background.css'>
+        <link rel="stylesheet" href='../css/breadcrumb.css'>
+        <style>
+            .content {
+                background: url("../img/border4.png") center top no-repeat;
+                background-size: contain;
+                margin-top: 10px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+            div.content p {
+                text-align: justify;
+            }
+            h2 {
+                margin-top: 0px;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 30px;
+                margin: 0 auto;
+                padding-top: 100px;
+                margin-bottom: 25px;
+            }
+            .content-top {
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .content-top img {
+                width: 380px;
+                height: 240px;
+                margin-left: 15px;
+                margin-bottom: 10px;
+                float: right;
+                border: solid 3px rgb(80, 13, 13);
+            }
+            img.content-center-picture {
+                width: 680px;
+                height: 480px;
+                border: solid 3px rgb(80, 13, 13);
+            }
+            img.content-center-menu-food {
+                border: solid 3px rgb(80, 13, 13);
+                width: 100%;
+            }
+            .content-center p:first-of-type, .content-center p:last-of-type {
+                text-align: center;
+            }
+            .content-center {
+                clear: both;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .content-down {
+                background: url("../img/border5.png") no-repeat 50% 100%;
+                background-size: cover;
+                height: 280px;
+                position: relative;
+                top: -100px;
+            }
+            footer {
+                bottom: 0px;
+            }
+            @media all and (max-width:800px){
+                img.content-center-picture {
+                    width: 100%;
+                    height: auto;
+                }
+                h2 {
+                    padding-top: 60px;
+                    margin-right: 0px;
+                }
+                .content-top img {
+                    margin: 0px;
+                    float: none;
+                    width: 100%;
+                    height: auto;
+                }
+                .content-top, .content-center {
+                    margin: 0px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                .content-down {
+                    display: none;
+                }
+                .content-top {
+                    background: none;
+                }
+                footer {
+                    bottom: 0px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <!--  -->
+        <header>
+            <div class="header-top">
+                <a class="header-top-name" href="../index.html" title="WINECELLAR">WineCellar</a> <p class="header-top-name">+44 2 56 78 88</p>
+            </div>
+            <div class="header-mobil">
+                <p class="header-top-name-mobil">+44 2 56 78 88</p>
+                <a href=""><img src="../img/burger_icon.png"></a>
+                    <div class="header-mobil-menu">
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/GALLERY.html" title="GALLERY">ГАЛЕРЕЯ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ДЕГУСТАЦИЯ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/STORY.html" title="STORY">ИСТОРИЯ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/CONTACT.html" title="CONTACT">КОНТАКТЫ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/RESTAURANT.html" title="RESTAURANT">РЕСТОРАН</a></div>
+                    </div>
+            </div>
+            <ul class="menu">
+                <li class="hov">
+                    <a class="hov_a" href="../pages/SERVIСES.html" title="SERVICES">УСЛУГИ</a>
+                    <div class="hovDown">
+                        <div>
+                            <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ЭКСКУРСИИ</a>
+                        </div>
+                        <div>
+                            <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ДЕГУСТАЦИЯ</a>
+                        </div>
+                        <div>
+                            <a class="hov_a" href="../pages/RESTAURANT.html" title="RESTAURANT">РЕСТОРАН</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/GALLERY.html" title="GALLERY">ГАЛЕРЕЯ</a></li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ДЕГУСТАЦИЯ</a></li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/STORY.html" title="STORY">ИСТОРИЯ</a></li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/CONTACT.html" title="CONTACT">КОНТАКТЫ</a></li>
+            </ul>
+        </header>
+        <ul class="breadcrumb">
+            <li><a href="../index.html#cellar" title="WINECELLAR">Главная</a></li>
+            <li><a href="../pages/SERVIСES.html#services" title="SERVICES">Услуги</a></li>
+            <li>Ресторан</li>
+        </ul>
+        <div class="content">
+            <div class="content-top">
+                <h2><b>РЕСТОРАН</b></h2>
+                <p>Ресторан Винный погреб - это естественное развитие идеи винотеки. Предлагая гостям возможность открывать и пробовать любое вино, купленное у нас, мы пришли к мысли о необходимости полноценного гастрономического сопровождения.</p>
+                <img src="../img/food2.jpg" alt="food">
+                <p>Обычно в ресторанах бывает так: винная карта, с ограниченным выбором вин из нескольких регионов. Немного Италии, чуть-чуть Франции. И негуманная цена. Мы сделали по-другому. Наша винная карта - это все, что вы видите в винотеке: на полках, стеллажах, витринах и коробках. Без ресторанной наценки. Может быть, при таком подходе и выбирать вино интереснее? Тем более, что наши кависты всегда готовы Вам помочь.</p>
+                <p>Итак, алгоритм простой. Вино, бокал, блюдо. С удовольствием и заинтересованностью выбираем вино, наслаждаемся его вкусом и ароматом в прекрасном винном бокале, заказываем блюда, соответствующие вину и настроению.</p>
+                <p>Заказать столик очень просто, это можно сделать прямо с главной страницы.</p>
+            </div>
+            <div class="content-center">
+                <p><img src="../img/food3.jpg" alt="food" class="content-center-picture"></p>
+                <p>Мы рады видеть Вас с 10 до 22 часов ежедневно. (В связи с рекомендациями местных властей, время работы ресторана может изменяться, уточняйте актуальную информацию о часах работы по телефону).</p>
+                <p><img src="../img/food4.jpg" alt="food" class="content-center-menu-food"></p>
+            </div>
+            <div class="content-down"></div>
+        </div>
+        <footer>
+            <div class="footer_top">WineCellar</div>
+            <div class="footer_center">
+                <a class="hov_a" href="../pages/SERVIСES.html" title="SERVICES">Услуги</a>
+                <a class="hov_a" href="../pages/STORY.html" title="STORY">О компании</a>
+                <a class="hov_a" href="../pages/REVIEW.html" title="REVIEW">Отзыв</a>
+            </div>
+            <div class="footer_down">
+                <div>
+                    &copy; 2013 -2022 Все права защищены
+                </div>
+                <div class="social">
+                    <a href="http://www.facebook.com" class="fa fa-facebook" target="blank" title="facebook"></a>
+                    <a href="http://www.vk.com" class="fa fa-vk" target="blank" title="vk"></a>
+                    <a href="http://www.instagram.com" class="fa fa-instagram" target="blank" title="instagram"></a>
+                    <a href="http://www.telegram.com" class="fa fa-telegram" target="blank" title="telegram"></a>
+                </div>
+                <div>Способы оплаты<br>
+                    <a class="pay" href="https://cis.visa.com" target="blank"><img src="../img/visa1.png" alt="pay"></a>
+                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/master1.png" alt="pay"></a>
+                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/maestro1.png" alt="pay"></a>
+                    <a class="pay" href="https://www.paypal.com" target="blank"><img src="../img/paypal1.png" alt="pay"></a>
+                    <a class="pay" href="https://apps.apple.com/ru/app/apple-wallet/id1160481993" target="blank"><img src="../img/pay1.png" alt="pay"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

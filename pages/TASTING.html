@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ДЕГУСТАЦИЯ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href='../css/header.css'>
+        <link rel="stylesheet" href='../css/footer.css'>
+        <link rel="stylesheet" href='../css/background.css'>
+        <link rel="stylesheet" href='../css/breadcrumb.css'>
+        <style>
+            .content {
+                max-width: 1200px;
+                margin: 0 auto;
+                background: url("../img/border4.png") center top no-repeat;
+                background-size: contain;
+            }
+            form {
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 150px;
+                margin-top: 10px;
+            }
+            form div {
+                font-size: 25px;
+                margin-bottom: 10px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            div.margin~div {
+                padding-left: 120px;
+            }
+            .margin {
+                font-size: 30px;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+            .name-text {
+                width: 30%;
+                padding: 4px;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+            .data {
+                width: 30%;
+                margin-top: 10px;
+                border-radius: 5px;
+                padding: 4px;
+                background-color: rgb(255, 255, 255);
+                border: 2px rgb(118, 118, 118) inset;
+            }
+            .time, .tel {
+                border-radius: 5px;
+                padding: 4px;
+            }
+            .tel {
+                width: 30%;
+            }
+            .time {
+                width: auto;
+                background-color: rgb(255, 255, 255);
+                border: 2px rgb(118, 118, 118) inset;
+            }
+            label {
+                display: inline-block;
+                width: 40%;
+                margin-bottom: 0px;
+            }
+            input {
+                font-size: 20px;
+            }
+            .whith {
+                height: 20px;
+                width: 20px;
+            }
+            .submit {
+                margin-top: 20px;
+                padding: 10px;
+                font-size: 30px;
+                background-color: rgb(241, 230, 215); 
+                border-radius: 10px; 
+                box-shadow: 0 0 10px black;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .submit:active {
+                box-shadow: 0 0 10px black inset;
+            }
+            .cal {
+                width: 50px;
+                border-radius: 5px;
+                padding: 4px;
+                width: 30%;
+            }
+            footer {
+                bottom: -100px;
+            }
+            @media all and (max-width:800px){
+                .content {
+                    display: block;
+                    background: none;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }
+                form {
+                    padding-right: 0px;
+                    padding-left: 0px;
+                    padding-top: 0px;
+                    width: 100%;
+                }
+                label {
+                    width: 70%
+                }
+                .name-text, .tel, .data, .cal {
+                    width: 100%;
+                }
+                div.margin~div {
+                    padding-left: 0px;
+                }
+                .submit {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                footer {
+                    bottom: 0px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <!--  -->
+        <header>
+            <div class="header-top">
+                <a class="header-top-name" href="../index.html" title="WINECELLAR">WineCellar</a> <p class="header-top-name">+44 2 56 78 88</p>
+            </div>
+            <div class="header-mobil">
+                <p class="header-top-name-mobil">+44 2 56 78 88</p>
+                <a href=""><img src="../img/burger_icon.png"></a>
+                    <div class="header-mobil-menu">
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/GALLERY.html" title="GALLERY">ГАЛЕРЕЯ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ДЕГУСТАЦИЯ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/STORY.html" title="STORY">ИСТОРИЯ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/CONTACT.html" title="CONTACT">КОНТАКТЫ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/RESTAURANT.html" title="RESTAURANT">РЕСТОРАН</a></div>
+                    </div>
+            </div>
+            <ul class="menu">
+                <li class="hov">
+                    <a class="hov_a" href="../pages/SERVIСES.html" title="SERVICES">УСЛУГИ</a>
+                    <div class="hovDown">
+                        <div>
+                            <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ЭКСКУРСИИ</a>
+                        </div>
+                        <div>
+                            <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ДЕГУСТАЦИЯ</a>
+                        </div>
+                        <div>
+                            <a class="hov_a" href="../pages/RESTAURANT.html" title="RESTAURANT">РЕСТОРАН</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/GALLERY.html" title="GALLERY">ГАЛЕРЕЯ</a></li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ДЕГУСТАЦИЯ</a></li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/STORY.html" title="STORY">ИСТОРИЯ</a></li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/CONTACT.html" title="CONTACT">КОНТАКТЫ</a></li>
+            </ul>
+        </header>
+        <ul class="breadcrumb">
+            <li><a href="../index.html#cellar" title="WINECELLAR">Главная</a></li>
+            <li><a href="../pages/SERVIСES.html#services" title="SERVICES">Услуги</a></li>
+            <li>Заказ</li>
+        </ul>
+        <div class="content">
+            <form method="post" action="">
+                <div class="margin">
+                    Для заказа экскурсии заполните,пожалуйста, следующую форму:
+                </div>
+                <div class="name">
+                    <label for="data">Введите Ваше имя:</label>
+                    <input class="name-text" type="text color" name="name" placeholder="Имя" autocomplete="off">
+                </div>
+                <div>
+                    <label for="data">Время начала экскурсии:</label>
+                    <input class="data" type=date value="2022-04-10">
+                    <input class="time" type=time value="10:00">
+                </div>
+                <div>
+                    <label for="onename">Количество человек:</label>
+                    <input class="cal" type="text" name="onename" id="onename" maxlength="4" autocomplete="off">
+                </div>
+                <div>
+                    <label for="tel">Телефон:</label>
+                    <input class="tel" type="tel" name="tel" id="tel" pattern="2[0-9]{3}-[0-9]{3}" placeholder="+xxx(xx)xxxxxxx" autocomplete="off">
+                </div>
+                <div>
+                    <label for="accept">С дегустацией</label>
+                    <input type="checkbox" class="whith" name="accept" id="accept">
+                </div>
+                <div>
+                    <input onclick="tasting()" class="submit" type="submit" value="Оформить заказ">
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="footer_top">WineCellar</div>
+            <div class="footer_center">
+                <a class="hov_a" href="../pages/SERVIСES.html" title="SERVICES">Услуги</a>
+                <a class="hov_a" href="../pages/STORY.html" title="STORY">О компании</a>
+                <a class="hov_a" href="../pages/REVIEW.html" title="REVIEW">Отзыв</a>
+            </div>
+            <div class="footer_down">
+                <div>
+                    &copy; 2013 -2022 Все права защищены
+                </div>
+                <div class="social">
+                    <a href="http://www.facebook.com" class="fa fa-facebook" target="blank" title="facebook"></a>
+                    <a href="http://www.vk.com" class="fa fa-vk" target="blank" title="vk"></a>
+                    <a href="http://www.instagram.com" class="fa fa-instagram" target="blank" title="instagram"></a>
+                    <a href="http://www.telegram.com" class="fa fa-telegram" target="blank" title="telegram"></a>
+                </div>
+                <div>Способы оплаты<br>
+                    <a class="pay" href="https://cis.visa.com" target="blank"><img src="../img/visa1.png" alt="pay"></a>
+                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/master1.png" alt="pay"></a>
+                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/maestro1.png" alt="pay"></a>
+                    <a class="pay" href="https://www.paypal.com" target="blank"><img src="../img/paypal1.png" alt="pay"></a>
+                    <a class="pay" href="https://apps.apple.com/ru/app/apple-wallet/id1160481993" target="blank"><img src="../img/pay1.png" alt="pay"></a>
+                </div>
+            </div>
+        </footer>
+        <script src="../js/main_tasting.js"></script>
+    </body>
+</html>
