@@ -2,139 +2,28 @@
 <html>
     <head>
         <title>ДЕГУСТАЦИЯ</title>
+        <link rel="icon"  href="../img/icon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href='../css/header.css'>
-        <link rel="stylesheet" href='../css/footer.css'>
-        <link rel="stylesheet" href='../css/background.css'>
-        <link rel="stylesheet" href='../css/breadcrumb.css'>
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/background.css">
+        <link rel="stylesheet" href="../css/tasting.css">
+        <link rel="stylesheet" href="../css/breadcrumb.css">
         <style>
-            .content {
-                max-width: 1200px;
-                margin: 0 auto;
-                background: url("../img/border4.png") center top no-repeat;
-                background-size: contain;
-            }
-            form {
-                padding-left: 50px;
-                padding-right: 50px;
-                padding-top: 150px;
-                margin-top: 10px;
-            }
-            form div {
-                font-size: 25px;
-                margin-bottom: 10px;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
-            div.margin~div {
-                padding-left: 120px;
-            }
-            .margin {
-                font-size: 30px;
-                margin-bottom: 30px;
-                text-align: center;
-            }
-            .name-text {
-                width: 30%;
-                padding: 4px;
-                border-radius: 5px;
-                margin-top: 10px;
-            }
-            .data {
-                width: 30%;
-                margin-top: 10px;
-                border-radius: 5px;
-                padding: 4px;
-                background-color: rgb(255, 255, 255);
-                border: 2px rgb(118, 118, 118) inset;
-            }
-            .time, .tel {
-                border-radius: 5px;
-                padding: 4px;
-            }
-            .tel {
-                width: 30%;
-            }
-            .time {
-                width: auto;
-                background-color: rgb(255, 255, 255);
-                border: 2px rgb(118, 118, 118) inset;
-            }
-            label {
-                display: inline-block;
-                width: 40%;
-                margin-bottom: 0px;
-            }
-            input {
-                font-size: 20px;
-            }
-            .whith {
-                height: 20px;
-                width: 20px;
-            }
-            .submit {
-                margin-top: 20px;
-                padding: 10px;
-                font-size: 30px;
-                background-color: rgb(241, 230, 215); 
-                border-radius: 10px; 
-                box-shadow: 0 0 10px black;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
-            .submit:active {
-                box-shadow: 0 0 10px black inset;
-            }
-            .cal {
-                width: 50px;
-                border-radius: 5px;
-                padding: 4px;
-                width: 30%;
-            }
-            footer {
-                bottom: -100px;
-            }
-            @media all and (max-width:800px){
-                .content {
-                    display: block;
-                    background: none;
-                    padding-right: 20px;
-                    padding-left: 20px;
-                }
-                form {
-                    padding-right: 0px;
-                    padding-left: 0px;
-                    padding-top: 0px;
-                    width: 100%;
-                }
-                label {
-                    width: 70%
-                }
-                .name-text, .tel, .data, .cal {
-                    width: 100%;
-                }
-                div.margin~div {
-                    padding-left: 0px;
-                }
-                .submit {
-                    font-size: 20px;
-                    margin-bottom: 20px;
-                }
-                footer {
-                    bottom: 0px;
-                }
-            }
+            
         </style>
     </head>
     <body>
     <!--  -->
         <header>
             <div class="header-top">
-                <a class="header-top-name" href="../index.html" title="WINECELLAR">WineCellar</a> <p class="header-top-name">+44 2 56 78 88</p>
+                <a class="header-top-name" href="../index.html" title="WINECELLAR">WineCellar</a><p class="header-top-name"><a href="tel:+442567888">+44 2 56 78 88</a></p>
             </div>
             <div class="header-mobil">
-                <p class="header-top-name-mobil">+44 2 56 78 88</p>
+                <p class="header-top-name-mobil"><a href="tel:+442567888">+44 2 56 78 88</a></p>
                 <a href=""><img src="../img/burger_icon.png"></a>
                     <div class="header-mobil-menu">
                         <div class="hov">
@@ -219,7 +108,7 @@
             </div>
             <div class="footer_down">
                 <div>
-                    &copy; 2013 -2022 Все права защищены
+                    &copy; 2013 &ndash; 2022 Все права защищены
                 </div>
                 <div class="social">
                     <a href="http://www.facebook.com" class="fa fa-facebook" target="blank" title="facebook"></a>
@@ -227,12 +116,14 @@
                     <a href="http://www.instagram.com" class="fa fa-instagram" target="blank" title="instagram"></a>
                     <a href="http://www.telegram.com" class="fa fa-telegram" target="blank" title="telegram"></a>
                 </div>
-                <div>Способы оплаты<br>
-                    <a class="pay" href="https://cis.visa.com" target="blank"><img src="../img/visa1.png" alt="pay"></a>
-                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/master1.png" alt="pay"></a>
-                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/maestro1.png" alt="pay"></a>
-                    <a class="pay" href="https://www.paypal.com" target="blank"><img src="../img/paypal1.png" alt="pay"></a>
-                    <a class="pay" href="https://apps.apple.com/ru/app/apple-wallet/id1160481993" target="blank"><img src="../img/pay1.png" alt="pay"></a>
+                <div>Способы оплаты
+                    <div>
+                    <a class="pay" href="https://cis.visa.com" target="blank"><img src="../img/Visa.svg" alt="pay"></a>
+                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/Master.svg" alt="pay"></a>
+                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/Maestro.svg" alt="pay"></a>
+                    <a class="pay" href="https://www.paypal.com" target="blank"><img src="../img/Paypal.svg" alt="pay"></a>
+                    <a class="pay" href="https://apps.apple.com/ru/app/apple-wallet/id1160481993" target="blank"><img src="../img/Apple.svg" alt="pay"></a>
+                    </div>
                 </div>
             </div>
         </footer>

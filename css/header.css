@@ -35,6 +35,14 @@ a.header-top-name {
     text-decoration: none;
     color: black;
 }
+.header-top-name a {
+    color: black;
+    text-decoration: none;
+}
+.header-top-name-mobil a {
+    color: white;
+    text-decoration: none;
+}
 li {
     position: relative;
 }
@@ -75,14 +83,19 @@ div.hovDown div {
 .hov_a {
     color: white;
     text-decoration: none;
+    border-bottom: solid 2px black
 }
 .hov:first-of-type:hover .hovDown {
     display: block;    
 }
 .hov:hover {
     border-bottom: solid 2px white;
-    animation: animation1 3s infinite;
+    animation: animation1 9s infinite;
     transition: all .1s ease-in-out;
+}
+.hovDown .hov_a:hover {
+    border-bottom: solid 1px white;
+    
 }
 @media all and (max-width:800px){
     .menu, p.header-top-name {
@@ -130,6 +143,9 @@ div.hovDown div {
     }
     .header-mobil img {
         height: 100%;
+     }
+     .header-mobil p {
+         padding-right: 20px;
      }
     .header-mobil-menu {
         width: 60%;
