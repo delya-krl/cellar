@@ -1,0 +1,48 @@
+#adult-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(41, 40, 40, 0.95);
+    z-index: 1;
+    }
+body.hidden {
+    display: none;
+}
+#adult-modal.show {
+    display: block;
+}
+#adult-modal .content-modal {
+    max-width: 450px;
+    height: auto;
+    margin: 100px auto;
+    background: rgb(241, 230, 215);
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content-modal h2 {
+    margin: 0px;
+}
+.content-modal p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+.content-modal button {
+    width: 100px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 7px rgb(95, 94, 94);
+    position: relative;
+    left: 20%;
+}
+.content-modal button:active {
+    box-shadow: none   
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ДЕГУСТАЦИЯ</title>
+        <link rel="icon"  href="../img/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/background.css">
+        <link rel="stylesheet" href="../css/tasting.css">
+        <link rel="stylesheet" href="../css/breadcrumb.css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+    <!--  -->
+        <header>
+            <div class="header-top">
+                <a class="header-top-name" href="../index.html" title="WINECELLAR">WineCellar</a><p class="header-top-name"><a href="tel:+442567888">+44 2 56 78 88</a></p>
+            </div>
+            <div class="header-mobil">
+                <p class="header-top-name-mobil"><a href="tel:+442567888">+44 2 56 78 88</a></p>
+                <a href=""><img src="../img/burger_icon.png"></a>
+                    <div class="header-mobil-menu">
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/GALLERY.html" title="GALLERY">ГАЛЕРЕЯ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ДЕГУСТАЦИЯ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/STORY.html" title="STORY">ИСТОРИЯ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/CONTACT.html" title="CONTACT">КОНТАКТЫ</a></div>
+                        <div class="hov">
+                            <a class="hov_a" href="../pages/RESTAURANT.html" title="RESTAURANT">РЕСТОРАН</a></div>
+                    </div>
+            </div>
+            <ul class="menu">
+                <li class="hov">
+                    <a class="hov_a" href="../pages/SERVIСES.html" title="SERVICES">УСЛУГИ</a>
+                    <div class="hovDown">
+                        <div>
+                            <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ЭКСКУРСИИ</a>
+                        </div>
+                        <div>
+                            <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ДЕГУСТАЦИЯ</a>
+                        </div>
+                        <div>
+                            <a class="hov_a" href="../pages/RESTAURANT.html" title="RESTAURANT">РЕСТОРАН</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/GALLERY.html" title="GALLERY">ГАЛЕРЕЯ</a></li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/TASTING.html" title="TASTING">ДЕГУСТАЦИЯ</a></li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/STORY.html" title="STORY">ИСТОРИЯ</a></li>
+                <li class="hov">
+                    <a class="hov_a" href="../pages/CONTACT.html" title="CONTACT">КОНТАКТЫ</a></li>
+            </ul>
+        </header>
+        <ul class="breadcrumb">
+            <li><a href="../index.html#cellar" title="WINECELLAR">Главная</a></li>
+            <li><a href="../pages/SERVIСES.html#services" title="SERVICES">Услуги</a></li>
+            <li>Заказ</li>
+        </ul>
+        <div class="content">
+            <form method="post" action="">
+                <div class="margin">
+                    Для заказа экскурсии заполните,пожалуйста, следующую форму:
+                </div>
+                <div class="name">
+                    <label for="data">Введите Ваше имя:</label>
+                    <input class="name-text" type="text color" name="name" placeholder="Имя" autocomplete="off">
+                </div>
+                <div>
+                    <label for="data">Время начала экскурсии:</label>
+                    <input class="data" type=date value="2022-04-10">
+                    <input class="time" type=time value="10:00">
+                </div>
+                <div>
+                    <label for="onename">Количество человек:</label>
+                    <input class="cal" type="text" name="onename" id="onename" maxlength="4" autocomplete="off">
+                </div>
+                <div>
+                    <label for="tel">Телефон:</label>
+                    <input class="tel" type="tel" name="tel" id="tel" pattern="2[0-9]{3}-[0-9]{3}" placeholder="+xxx(xx)xxxxxxx" autocomplete="off">
+                </div>
+                <div>
+                    <label for="accept">С дегустацией</label>
+                    <input type="checkbox" class="whith" name="accept" id="accept">
+                </div>
+                <div>
+                    <input onclick="tasting()" class="submit" type="submit" value="Оформить заказ">
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class="footer_top">WineCellar</div>
+            <div class="footer_center">
+                <a class="hov_a" href="../pages/SERVIСES.html" title="SERVICES">Услуги</a>
+                <a class="hov_a" href="../pages/STORY.html" title="STORY">О компании</a>
+                <a class="hov_a" href="../pages/REVIEW.html" title="REVIEW">Отзыв</a>
+            </div>
+            <div class="footer_down">
+                <div>
+                    &copy; 2013 &ndash; 2022 Все права защищены
+                </div>
+                <div class="social">
+                    <a href="http://www.facebook.com" class="fa fa-facebook" target="blank" title="facebook"></a>
+                    <a href="http://www.vk.com" class="fa fa-vk" target="blank" title="vk"></a>
+                    <a href="http://www.instagram.com" class="fa fa-instagram" target="blank" title="instagram"></a>
+                    <a href="http://www.telegram.com" class="fa fa-telegram" target="blank" title="telegram"></a>
+                </div>
+                <div>Способы оплаты
+                    <div>
+                    <a class="pay" href="https://cis.visa.com" target="blank"><img src="../img/Visa.svg" alt="pay"></a>
+                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/Master.svg" alt="pay"></a>
+                    <a class="pay" href="https://www.mastercard.by" target="blank"><img src="../img/Maestro.svg" alt="pay"></a>
+                    <a class="pay" href="https://www.paypal.com" target="blank"><img src="../img/Paypal.svg" alt="pay"></a>
+                    <a class="pay" href="https://apps.apple.com/ru/app/apple-wallet/id1160481993" target="blank"><img src="../img/Apple.svg" alt="pay"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../js/main_tasting.js"></script>
+    </body>
+</html>
